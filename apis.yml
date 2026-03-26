@@ -1,11 +1,17 @@
 aid: kaniko
 name: Kaniko
 description: >-
-  Kaniko is a tool to build container images from a Dockerfile inside a container or Kubernetes cluster without requiring a Docker daemon.
+  Kaniko is an open-source tool from Google that builds container images from a Dockerfile inside a container or Kubernetes cluster without requiring a Docker daemon. It executes each command within a Dockerfile in userspace, enabling secure container builds in environments where running a Docker daemon is impractical or insecure.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Containers
+  - Container Images
+  - Build Tools
+  - Kubernetes
+  - Daemonless
+  - Google
+  - Open Source
 url: >-
   https://raw.githubusercontent.com/api-evangelist/kaniko/refs/heads/main/apis.yml
 created: '2026-03-26'
@@ -15,14 +21,28 @@ apis:
   - aid: kaniko:kaniko
     name: Kaniko
     description: >-
-      Kaniko is a tool to build container images from a Dockerfile inside a container or Kubernetes cluster without requiring a Docker daemon.
-    humanURL: https://github.com/api-evangelist/kaniko
+      Kaniko is an open-source tool from Google that builds container images from a Dockerfile inside a container or Kubernetes cluster without requiring a Docker daemon, enabling secure container builds in constrained environments.
+    humanURL: https://github.com/GoogleContainerTools/kaniko
     tags:
       - Containers
-    properties: []
+      - Container Images
+      - Build Tools
+      - Kubernetes
+      - Daemonless
+    properties:
+      - type: Documentation
+        url: https://github.com/GoogleContainerTools/kaniko/blob/main/README.md
+      - type: Getting Started
+        url: https://github.com/GoogleContainerTools/kaniko/blob/main/docs/tutorial.md
 common:
   - type: Website
-    url: https://github.com/api-evangelist/kaniko
+    url: https://github.com/GoogleContainerTools/kaniko
+  - type: Documentation
+    url: https://github.com/GoogleContainerTools/kaniko/blob/main/README.md
+  - type: Getting Started
+    url: https://github.com/GoogleContainerTools/kaniko/blob/main/docs/tutorial.md
+  - type: GitHub Organization
+    url: https://github.com/GoogleContainerTools
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
