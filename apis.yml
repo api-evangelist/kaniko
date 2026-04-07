@@ -5,12 +5,12 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Containers
-  - Container Images
   - Build Tools
-  - Kubernetes
+  - Container Images
+  - Containers
   - Daemonless
   - Google
+  - Kubernetes
   - Open Source
 url: >-
   https://raw.githubusercontent.com/api-evangelist/kaniko/refs/heads/main/apis.yml
@@ -24,11 +24,11 @@ apis:
       Kaniko is an open-source tool from Google that builds container images from a Dockerfile inside a container or Kubernetes cluster without requiring a Docker daemon, enabling secure container builds in constrained environments.
     humanURL: https://github.com/GoogleContainerTools/kaniko
     tags:
-      - Containers
-      - Container Images
       - Build Tools
-      - Kubernetes
+      - Container Images
+      - Containers
       - Daemonless
+      - Kubernetes
     properties:
       - type: Documentation
         url: https://github.com/GoogleContainerTools/kaniko/blob/main/README.md
