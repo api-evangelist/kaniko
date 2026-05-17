@@ -55,7 +55,7 @@ common:
     url: https://github.com/GoogleContainerTools/kaniko
   - type: Documentation
     url: https://github.com/GoogleContainerTools/kaniko/blob/main/README.md
-  - type: Getting Started
+  - type: GettingStarted
     url: https://github.com/GoogleContainerTools/kaniko/blob/main/docs/tutorial.md
   - type: Development
     url: https://github.com/GoogleContainerTools/kaniko/blob/main/DEVELOPMENT.md
@@ -63,7 +63,7 @@ common:
     url: https://github.com/GoogleContainerTools/kaniko/blob/main/CONTRIBUTING.md
   - type: Releases
     url: https://github.com/GoogleContainerTools/kaniko/releases
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/GoogleContainerTools
 maintainers:
   - FN: Kin Lane
