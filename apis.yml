@@ -8,7 +8,7 @@ description: >-
   running a Docker daemon is impractical or insecure. The project was
   archived on June 3, 2025, and is now read-only.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Archived
   - Build Tools
