@@ -44,7 +44,7 @@ apis:
         url: https://github.com/GoogleContainerTools/kaniko/blob/main/README.md
       - type: Tutorial
         url: https://github.com/GoogleContainerTools/kaniko/blob/main/docs/tutorial.md
-      - type: Releases
+      - type: ReleaseNotes
         url: https://github.com/GoogleContainerTools/kaniko/releases
       - type: Contributing
         url: https://github.com/GoogleContainerTools/kaniko/blob/main/CONTRIBUTING.md
@@ -61,7 +61,7 @@ common:
     url: https://github.com/GoogleContainerTools/kaniko/blob/main/DEVELOPMENT.md
   - type: Contributing
     url: https://github.com/GoogleContainerTools/kaniko/blob/main/CONTRIBUTING.md
-  - type: Releases
+  - type: ReleaseNotes
     url: https://github.com/GoogleContainerTools/kaniko/releases
   - type: GitHubOrganization
     url: https://github.com/GoogleContainerTools
