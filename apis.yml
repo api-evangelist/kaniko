@@ -35,7 +35,7 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/kaniko/refs/heads/main/apis.yml
 created: '2026-03-26'
 modified: '2026-04-28'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: kaniko:kaniko-cli
     name: Kaniko CLI
